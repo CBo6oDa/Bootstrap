@@ -14,6 +14,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -103,45 +105,64 @@
             <div class="col-12 col-sm-11">
                 <h2>Corporate Leadership</h2>
 
-                <ul class="nav nav-tabs" role="tablist">
-                    <li class="nav-item">
-                      <a class="nav-link active" href="#peter"
-                        data-toggle="tab">Peter Pan, CEO</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#danny"
-                        data-toggle="tab">Danny Witherspoon, CFO</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#agumbe"
-                        data-toggle="tab">Agumbe Tang, CTO</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#alberto"
-                        data-toggle="tab">Alberto Somayya, Exec. Chef</a>
-                    </li>
-                </ul>
+                <div id="accordion">
+                    <div class="card">
+                      <div class="card-header">
+                        <a class="card-link" data-toggle="collapse" href="#peter">
+                          <h3>Peter Pan <small>Chief Epicurious Officer</small></h3>
+                        </a>
+                      </div>
+                      <div id="peter" class="collapse show" data-parent="#accordion">
+                        <div class="card-body">
+                          <p class="d-none d-sm-block">Our CEO, Peter, credits his hardworking East Asian immigrant parents who undertook the arduous journey to the shores of America with the intention of giving their children the best future. His mother's wizardy in the kitchen whipping up the tastiest dishes with whatever is available inexpensively at the supermarket, was his first inspiration to create the fusion cuisines for which <em>The Frying Pan</em> became well known. He brings his zeal for fusion cuisines to this  restaurant, pioneering cross-cultural culinary connections.</p>
+                    </div>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div class="card-header">
+                        <a class="collapsed card-link" data-toggle="collapse" href="#danny">
+                          <h3>Dhanasekaran Witherspoon <small>Chief Food Officer</small></h3>
+                        </a>
+                      </div>
+                      <div id="danny" class="collapse" data-parent="#accordion">
+                        <div class="card-body">
+                          <p class="d-none d-sm-block">Our CFO, Danny, as he is affectionately referred to by his colleagues, comes from a long established family tradition in farming and produce. His experiences growing up on a farm in the Australian outback gave him great appreciation for varieties of food sources. As he puts it in his own words, <em>Everything that runs, wins, and everything that stays, pays!</em></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div class="card-header">
+                        <a class="collapsed card-link" data-toggle="collapse" href="#agumbe">
+                          <h3>Agumbe Tang <small>Chief Taste Officer</small></h3>
+                        </a>
+                      </div>
+                      <div id="agumbe" class="collapse" data-parent="#accordion">
+                        <div class="card-body">
+                          <p>Blessed with the most discerning gustatory sense, Agumbe, our CTO, personally ensures that every dish that we serve meets his exacting tastes. Our chefs dread the tongue lashing that ensues if their dish does not meet his exacting standards. He lives by his motto, <em>You click only if you survive my lick.</em></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div class="card-header">
+                        <a class="collapsed card-link" data-toggle="collapse" href="#alberto">
+                          <h3>Alberto Somayya <small>Executive Chef</small></h3>
+                        </a>
+                      </div>
+                      <div id="alberto" class="collapse" data-parent="#accordion">
+                        <div class="card-body">
+                          <p>Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. He says, <em>Put together the cuisines from the two craziest cultures, and you get a winning hit! Amma Mia!</em></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
 
-                <div class="tab-content">
-                    <div id="peter" role="tabpanel" class="container tab-pane active">
-                      <h3>Peter Pan <small>Chief Epicurious Officer</small></h3>
-                        <p class="d-none d-sm-block">Our CEO, Peter, credits his hardworking East Asian immigrant parents who undertook the arduous journey to the shores of America with the intention of giving their children the best future. His mother's wizardy in the kitchen whipping up the tastiest dishes with whatever is available inexpensively at the supermarket, was his first inspiration to create the fusion cuisines for which <em>The Frying Pan</em> became well known. He brings his zeal for fusion cuisines to this  restaurant, pioneering cross-cultural culinary connections.</p>
-                    </div>
-                    <div id="danny" class="container tab-pane fade">
-                      <h3>Dhanasekaran Witherspoon <small>Chief Food Officer</small></h3>
-                        <p class="d-none d-sm-block">Our CFO, Danny, as he is affectionately referred to by his colleagues, comes from a long established family tradition in farming and produce. His experiences growing up on a farm in the Australian outback gave him great appreciation for varieties of food sources. As he puts it in his own words, <em>Everything that runs, wins, and everything that stays, pays!</em></p>
-                    </div>
-                    <div id="agumbe" class="container tab-pane fade">
-                      <h3>Agumbe Tang <small>Chief Taste Officer</small></h3>
-                        <p>Blessed with the most discerning gustatory sense, Agumbe, our CTO, personally ensures that every dish that we serve meets his exacting tastes. Our chefs dread the tongue lashing that ensues if their dish does not meet his exacting standards. He lives by his motto, <em>You click only if you survive my lick.</em></p>
-                    </div>
-                    <div id="alberto" class="container tab-pane fade">
-                      <h3>Alberto Somayya <small>Executive Chef</small></h3>
-                        <p>Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. He says, <em>Put together the cuisines from the two craziest cultures, and you get a winning hit! Amma Mia!</em></p>
-                    </div>
+
+
                 </div>
             </div>
-        </div>
+
+
             <div class="row row-content">
                 <div class="col-12 col-sm-9">
                   <h2>Facts &amp; Figures</h2>
