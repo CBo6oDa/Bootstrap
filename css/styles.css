@@ -24,7 +24,6 @@ address{
   margin: 0px;
   color: #0f0f0f;
 }
-
 body{
   padding: 50px 0px 0px 0px;
   z-index: 0;
@@ -32,6 +31,43 @@ body{
 .navbar-dark{
   background: #512DA8;
 }
+.btn_success {
+  color: #fff;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+.btn_success:focus {
+  color: #fff;
+  background-color: #265826;
+  border-color: #255625;
+}
+.btn_success:active {
+  color: #fff;
+  background-color: #449d44;
+  border-color: #398439;
+}
+.btn_danger{
+  color: #fff;
+  background-color: #d9534f;
+  border-color: #d43f3a;
+}
+.btn_danger:focus{
+  color: #fff;
+  background-color: #c9302c;
+  border-color: #761c19;
+}
+.btn_danger:hover{
+  color: #fff;
+  background-color: #c9302c;
+  border-color: #ac2925;
+}
+.btn_danger:active{
+  color: #fff;
+  background-color: #c9302c;
+  border-color: #ac2925;
+}
+.btn_success:disabled{ background-color: #7bff00};
+
 .tab-content{
   border-left: 1px solid #ddd;
   border-right: 1px solid #ddd;
