@@ -16,6 +16,7 @@ $carousel-item-height: 300px;
   border-bottom: 1px,ridge;
   min-height: 400px;
 }
+
 .footer{
   background-color: $background-pale;
   @include zero-margin(20px,0px);
@@ -33,6 +34,9 @@ address{
 body{
   padding: 50px 0px 0px 0px;
   z-index: 0;
+}
+.card-header{
+    background: #512DA8;
 }
 .navbar-dark{
   background-color: $background-dark;

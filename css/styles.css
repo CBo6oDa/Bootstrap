@@ -1,53 +1,104 @@
-.row-header {
+.row-header{
   margin: 0px auto;
-  padding: 0px 0px; }
-
-.row-content {
+  padding: 0px auto;
+}
+.row-content{
   margin: 0px auto;
-  padding: 50px 0px;
-  border-bottom: 1px,ridge;
-  min-height: 400px; }
-
-.footer {
+  padding: 50px 0px 50px 0px;
+  border-bottom: 1px ridge;
+  min-height: 400px;
+}
+.footer{
   background-color: #D1C4E9;
   margin: 0px auto;
-  padding: 20px 0px; }
-
-.jumbotron {
+  padding: 20px 0px 20px 0px;
+}
+.jumbotron{
+  padding: 70px 30px 70px 30px;
   margin: 0px auto;
-  padding: 70px 30px;
   background: #9575CD;
-  color: floralwhite; }
-
-address {
+  color: floralwhite;
+}
+.card-header{
+    background: #512DA8;
+}
+.modal-header{
+      background: #512DA8;
+}
+.card-body{
+  background: #c4bade;
+}
+.modal-body{
+  background: #c4bade;
+}
+address{
   font-size: 80%;
   margin: 0px;
-  color: #0f0f0f; }
-
-body {
+  color: #0f0f0f;
+}
+body{
   padding: 50px 0px 0px 0px;
-  z-index: 0; }
+  z-index: 0;
+}
+.navbar-dark{
+  background: #512DA8;
+}
+.btn_success {
+  color: #fff;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+.btn_success:focus {
+  color: #fff;
+  background-color: #265826;
+  border-color: #255625;
+}
+.btn_success:active {
+  color: #fff;
+  background-color: #449d44;
+  border-color: #398439;
+}
+.btn_danger{
+  color: #fff;
+  background-color: #d9534f;
+  border-color: #d43f3a;
+}
+.btn_danger:focus{
+  color: #fff;
+  background-color: #c9302c;
+  border-color: #761c19;
+}
+.btn_danger:hover{
+  color: #fff;
+  background-color: #c9302c;
+  border-color: #ac2925;
+}
+.btn_danger:active{
+  color: #fff;
+  background-color: #c9302c;
+  border-color: #ac2925;
+}
+.btn_success:disabled{ background-color: #7bff00};
 
-.navbar-dark {
-  background-color: #512DA8; }
-
-.tab-content {
+.tab-content{
   border-left: 1px solid #ddd;
   border-right: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
-  padding: 10px; }
-
-.carousel {
-  background: #512DA8; }
-  .carousel .carousel-item {
-    height: 300px; }
-    .carousel .carousel-item img {
-      position: absolute;
-      top: 0;
-      left: 0;
-      min-height: 300px; }
-
-#carouselButton {
-  right: 0px;
+  padding: 10px;
+}
+.carousel{
+  background: #512DA8;
+}
+.carousel-item{
+  height: 300px;
+}
+.carousel-item img{
   position: absolute;
-  bottom: 0px; }
+  top: 0;
+  left: 0;
+  min-height: 300px;
+}
+.modal{
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+}
