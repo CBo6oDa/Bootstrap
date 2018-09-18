@@ -26,7 +26,7 @@
               <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-list fal-lg"></span> Menu</a></li>
               <li class="nav-item"><a class="nav-link" href="./contactus.html"><span class="fa fa-address-card fal-lg"></span> Contact</a></li>
           </ul>
-          <button id="loginBtn" class="navbar-text btn-primary"><a><span class="fa fa-sign-in"></span> Login</a></button>
+          <a id="loginBtn" class="navbar-text text-white"><span class="fa fa-sign-in"></span> Login</a>
         </div>
       </div>
     </nav>
@@ -129,49 +129,50 @@
       </header>
 
       <div class="container">
-          <div class="row row-content">
-            <div class="col">
-              <div id="mycarousel" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner" role="listbox">
-                  <div class="carousel-item active">
-                      <img class="d-block img-fluid" src="img/uthappizza.png" alt="uthappizza">
-                      <div class="carousel-caption d-none d-md-block">
-                        <h2 class="mt-0">Uthappizza <span class="badge badge-danger">HOT</span><span class="badge badge-pill badge-secondary ml-2">$4.99</span></h2>
-                        <p class="d-none d-sm-block">A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.</p>
-                      </div>
-                  </div>
-                  <div class="carousel-item">
-                    <img class="d-flex img-thumbnail align-self-center order-sm-last" src="img/buffet.png" alt="Buffet">
+        <div class="row row-content">
+          <div class="col">
+            <div id="mycarousel" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <img class="d-block img-fluid" src="img/uthappizza.png" alt="uthappizza">
                     <div class="carousel-caption d-none d-md-block">
-                      <h2 class="mt-0 ml-1">Weekend Grand Buffet <span class="badge badge-danger">NEW</span></h2>
-                      <p class="d-none d-sm-block">Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person</p>
+                      <h2 class="mt-0">Uthappizza <span class="badge badge-danger">HOT</span><span class="badge badge-pill badge-secondary ml-2">$4.99</span></h2>
+                      <p class="d-none d-sm-block">A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.</p>
                     </div>
-                  </div>
-                  <div class="carousel-item">
-                    <img class="d-flex mr-3 img-thumbnail align-self-center" src="img/alberto.png" alt="Alberto">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h4>Executive Chef</h4>
-                      <p class="d-none d-sm-block">Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. </p>
-                    </div>
+                </div>
+                <div class="carousel-item">
+                  <img class="d-flex img-thumbnail align-self-center order-sm-last" src="img/buffet.png" alt="Buffet">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h2 class="mt-0 ml-1">Weekend Grand Buffet <span class="badge badge-danger">NEW</span></h2>
+                    <p class="d-none d-sm-block">Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person</p>
                   </div>
                 </div>
-                <ol class="carousel-indicators">
-                        <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#mycarousel" data-slide-to="1"></li>
-                        <li data-target="#mycarousel" data-slide-to="2"></li>
-                </ol>
-                <a class="carousel-control-prev" href="#mycarousel" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon"></span>
-                </a>
-                <a class="carousel-control-next" href="#mycarousel" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon"></span>
-                </a>
-                <button class="btn btn-danger btn-sm" id="carouselButton">
-                        <span id="carousel-button-icon" class="fa fa-pause"></span>
-                </button>
+                <div class="carousel-item">
+                  <img class="d-flex mr-3 img-thumbnail align-self-center" src="img/alberto.png" alt="Alberto">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h4>Executive Chef</h4>
+                    <p class="d-none d-sm-block">Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. </p>
+                  </div>
+                </div>
               </div>
+              <ol class="carousel-indicators">
+                      <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+                      <li data-target="#mycarousel" data-slide-to="1"></li>
+                      <li data-target="#mycarousel" data-slide-to="2"></li>
+              </ol>
+              <a class="carousel-control-prev" href="#mycarousel" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon"></span>
+              </a>
+              <a class="carousel-control-next" href="#mycarousel" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon"></span>
+              </a>
+              <button class="btn btn-danger btn-sm mr-auto" id="carouselButton">
+                      <span id="carousel-button-icon" class="fa fa-pause"></span>
+              </button>
             </div>
           </div>
+        </div>
+
           <div class="row row-content align-items-center">
               <div class="col-12 col-sm-4 order-sm-last col-md-3">
                   <h3>Our Lipsmacking Culinary Creations</h3>
@@ -265,63 +266,7 @@
       <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
       <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
       <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-      <script>
-        $(document).ready(function(){
-            $("#mycarousel").carousel( { interval: 1000 } );
-            $("#carouselButton").click(function(){
-                if ($("#carouselButton").children("span").hasClass('fa-pause')) {
-                    $("#mycarousel").carousel('pause');
-                    $("#carouselButton").children("span").removeClass('fa-pause');
-                    $("#carouselButton").children("span").addClass('fa-play');
-                }
-                else if ($("#carouselButton").children("span").hasClass('fa-play')){
-                    $("#mycarousel").carousel('cycle');
-                    $("#carouselButton").children("span").removeClass('fa-play');
-                    $("#carouselButton").children("span").addClass('fa-pause');
-                }
-            });
-        });
-    </script>
-
-    <script>
-        var loginForm = document.getElementById("loginM");
-        var loginBtn = document.getElementById("loginBtn");
-        var buttonClose = document.getElementsByClassName("close")[0];
-        var buttonClose2 = document.getElementsByClassName("close")[1];
-        var reserveForm = document.getElementById("myModal");
-        var reserveBtn = document.getElementById("myBtn");
-        var cancelLoginBtn = document.getElementById("cancelLoginBtn");
-
-        loginBtn.onclick = function() {
-            loginForm.style.display = "block";
-        }
-
-        reserveBtn.onclick = function() {
-            reserveForm.style.display = "block";
-        }
-
-        buttonClose.onclick = function() {
-            reserveForm.style.display = "none";
-            loginForm.style.display = "none";
-        }
-
-        buttonClose2.onclick = function() {
-            loginForm.style.display = "none";
-        }
-
-        cancelLoginBtn.onclick = function(){
-          loginForm.style.display = "none";
-        }
-
-        window.onclick = function(event) {
-            if (event.target == reserveForm) {
-                reserveForm.style.display = "none";
-            }
-            else if (event.target == loginForm) {
-                loginForm.style.display = "none";
-            }
-        }
-    </script>
+      <script src="js/scripts.js"></script>
 </body>
 
 </html>
