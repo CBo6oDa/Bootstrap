@@ -20,7 +20,7 @@ gulp.task('browser-sync', function () {
       './css/*.css',
       './img/*.{png,jpg,gif}',
       './js/*.js'
-   ];
+    ];
 
    browserSync.init(files, {
       server: {
