@@ -19,6 +19,7 @@ $(document).ready(function(){
   var buttonClose2 = document.getElementsByClassName("close")[1];
   var reserveForm = document.getElementById("myModal");
   var reserveBtn = document.getElementById("myBtn");
+  var cardForm = document.getElementById("reserveform");
   var cancelLoginBtn = document.getElementById("cancelLoginBtn");
 
   loginBtn.onclick = function() {
@@ -31,7 +32,6 @@ $(document).ready(function(){
 
   buttonClose.onclick = function() {
       reserveForm.style.display = "none";
-      loginForm.style.display = "none";
   }
 
   buttonClose2.onclick = function() {
@@ -43,7 +43,7 @@ $(document).ready(function(){
   }
 
   window.onclick = function(event) {
-      if (event.target == reserveForm) {
+      if (event.target == cardForm) {
           reserveForm.style.display = "none";
       }
       else if (event.target == loginForm) {
